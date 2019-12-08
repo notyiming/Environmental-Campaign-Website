@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+	<title>Environmentally Friendly Campaign</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styling.css">
+	<link rel="SHORTCUT ICON" href="images/Earth.ico">
+</head>
+<body>
+    <header>
+        <nav>
+			<a href="index.html">Home</a>
+			<a href="resource.html">Resources</a>
+			<a href="competition.html">Competition</a>
+			<a href="contactUs.html">Contact Us</a>
+			<a href="aboutUs.html">About Us </a>
+		</nav>
+    </header>
+    <main>
+		<div class="fixed bg-3">
+			<h1>Competition</h1>
+		</div>
+
+		<div class="normal">
+			<form method="get" action="https://webdevcit.com/displayvalues.php" target="_blank">
+				<div class="heading"><h1>Who has the most creative idea to save our environment?</h1></div>
+				<fieldset>
+					<legend>Personal Details</legend>
+					<label>First Name </label><input type="text" required autocomplete = "on" placeholder="First Name" name="first_name"><br><br>
+					<label>Middle Name </label><input type="text" placeholder="Middle Name" name="middle_name"><br><br>
+					<label>Last Name </label><input type="text" required autocomplete = "on" placeholder="Last Name" name="last_name"><br><br>
+					<label>Date of Birth  </label><input type="date" name="D.O.B."><br><br>
+					County
+					<select name="couty">
+						<option value="Antrim">Antrim</option>
+						<option value="Armagh">Armagh</option>
+						<option value="Carlow">Carlow</option>
+						<option value="Cavan">Cavan</option>
+						<option value="Clare">Clare</option>
+						<option value="Cork">Cork</option>
+						<option value="Derry">Derry</option>
+						<option value="Donegal">Donegal</option>
+						<option value="Down">Down</option>
+						<option value="Dublin">Dublin</option>
+						<option value="Fermanagh">Fermanagh</option>
+						<option value="Galway">Galway</option>
+						<option value="Kerry">Kerry</option>
+						<option value="Kildare">Kildare</option>
+						<option value="Kilkenny">Kilkenny</option>
+						<option value="Laois">Laois</option>
+						<option value="Leitrim">Leitrim</option>
+						<option value="Limerick">Limerick</option>
+						<option value="Longford">Longford</option>
+						<option value="Louth">Louth</option>
+						<option value="Mayo">Mayo</option>
+						<option value="Meath">Meath</option>
+						<option value="Monaghan">Monaghan</option>
+						<option value="Offaly">Offaly</option>
+						<option value="Roscommon">Roscommon</option>
+						<option value="Sligo">Sligo</option>
+						<option value="Tipperary">Tipperary</option>
+						<option value="Tyrone">Tyrone</option>
+						<option value="Waterford">Waterford</option>
+						<option value="Westmeath">Westmeath</option>
+						<option value="Wexford">Wexford</option>
+						<option value="Wicklow">Wicklow</option>
+					</select><br><br>
+					<label>Email address </label><input type="email" required autocomplete = "on" placeholder="example@domain.com" name="email_address"><br><br>
+					<label>Mobile Number</label> <input required autocomplete = "on" placeholder="### - #######" type="tel" name="tel_no"><br>
+				</fieldset>
+
+				<fieldset>
+					<legend>Your Submissions</legend>
+					Choice of Category:
+					<label><input type="checkbox" name="choice" value="reuse" checked>Reuse</label>
+					<label><input type="checkbox" name="choice" value="reduce" checked>Reduce</label>
+					<label><input type="checkbox" name="choice" value="recycle" checked>Recycle</label>
+					<br><br>
+
+					Upload Your submission photo here:
+					<input type="file" name="photo">
+					<br>
+					<label>Photo name </label><input type="text" required autocomplete = "on" placeholder="Photo Name" name="photo_name">
+					<br><br>
+
+
+					Any more creative ideas to save our environment?<br>
+					<textarea cols="60" rows="5" placeholder="Enter you ideas here"></textarea><br>
+					<label>Too much to say?<br>Upload your file here: </label><input type="file" name="idea">
+				</fieldset>
+
+				<fieldset>
+					<legend>Would you like us to send you updates about future events via email?</legend>
+					<label><input type="radio" name="updates" value="yes_please">Yes Please</label>
+					<label><input type="radio" name="updates" value="no_thanks">No Thanks</label>
+				</fieldset>
+				<button type="submit">Submit</button>
+				<button type="reset">Cancel</button>
+			</form>
+		</div>
+	</main>
+	<footer>
+    	<pre><a href="contactUs.html">&copy; Yi Ming Tan 2019 |</a><a href="mailto:y.tan@mycit.ie">Email Us</a><a href="tel:0838888888">Call Us</a><a class="backtotop" href ="#top">Back to top </a></pre>
+    </footer>
+</body>
+</html>

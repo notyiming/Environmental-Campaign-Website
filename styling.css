@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+html,main,body{
+  height: 100%;
+  margin: 0;
+  background-color: #ffffe6;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.3;
+  word-spacing: 3px;
+  letter-spacing: 0.2px;
+}
+.fixed{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: table;
+  clear: left;
+}
+.normal{
+  padding: 3em;
+  background-color: #ffffe6;
+}
+.bg-1{
+  background-image: url("images/jungles.jpg"); /*https://wallpapercave.com/w/wp2506817*/
+}
+.bg-2{
+  background-image: url("images/trees.jpg");
+}
+.bg-3{
+  background-image: url("images/yellowtrees.jpg");/*https://www.iliketowastemytime.com/2019/02/27/daily-wallpaper-sunrise-in-forest*/
+}
+.bg-4{
+  background-image: url("images/mountain.jpg");/*http://getwallpapers.com/wallpaper/full/4/8/3/277751.jpg*/
+}
+.bg-5{
+  background-image: url("images/lake.jpg");/*http://www.sompaisoscatalans.cat/simage/52/527128/4k-wallpaper-nature.jpg*/
+}
+.fixed h1{
+  font-size: 4.5em;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+footer{
+  background-image: linear-gradient(to right,#cc7a00, #ffffe6);
+  padding-left: 1.5em;
+  font-size: 10px;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+footer a{
+  padding-right: 3.5em;
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: #572D15;
+}
+nav{
+  width: 100%;
+}
+nav a{
+  float: left;
+  display: inline-block;
+  color: black;
+  padding: 14px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  background: #fff0b3;
+}
+iframe{
+  display: block;
+  margin: auto;
+}
+p{
+  width: 75%;
+  margin:30px auto;
+}
+.first_letter::first-letter{
+  font-size: 200%;
+}
+.backtotop{
+  position: fixed;
+  right: 25px;
+  color: #cc7a00;
+}
+#twitter{
+  float: left;
+  width: 25%;
+  padding-bottom: 5em;
+}
+#details{
+  float: left;
+  width: 25%;
+  padding-bottom: 5em;
+}
+#details a{
+  text-decoration: none;
+  color: black;
+}
+#details a:hover{
+  color: brown;
+}
+#map{
+  float: left;
+  width: 40%;
+  padding-bottom: 5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+fieldset{
+  padding: 2em;
+  margin: 2em;
+  border: dotted brown;
+  border-width: 3px;
+}
+legend{
+  font-size: 1.85em;
+}
+button{
+  background-color: #cc7a00;
+  color: white;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.2em;
+
+}
+button:hover{
+  background-color: white;
+  color: #cc7a00;
+}
+table{
+  margin: 2.5em auto;
+  padding: 2em;
+  border: ridge brown;
+  border-width: 15px;
+  width: 640px;
+}
+td{
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  border: solid black;
+}
+th{
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  border: solid black;
+}
+tr td:hover{
+  background-color: #FFBD82;
+}
+tr th:hover{
+  background-color: #FFBD82;
+}
+caption{
+  font-size: 2em;
+}
+#november{
+  float: left;
+  width: 50%;
+}
+#december{
+  float: left;
+  width: 50%;
+}
+.resourceTitle{
+  text-align: center;
+  font-size: 3.5em;
+}
+.webimg{
+  text-align: center;
+  padding: 2.5em;
+}
+.webimg img{
+  padding: 2.5em;
+}
+.heading{
+  background-color: #cc7a00;
+  text-align: center;
+}
+.heading h1{
+  font-size: 3em;
+  color: white;
+  padding: 0.7em;
+  margin: 1.5em;
+}
+@media only screen and (max-width: 1364px) {
+  *{
+    font-size: 1.05em;
+  }
+  body{
+    width: auto;
+  }
+  nav{
+    text-align: center;
+  }
+  nav a{
+    float: none;
+    display: block;
+    font-size: 2em;
+    width: 100%
+    margin: 0;
+    border-bottom: 2px ridge brown;
+  }
+  footer{
+    font-size: 20px;
+  }
+  #november{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #december{
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+  p{
+    font-size: 2em;
+  }
+  td{
+    font-size: 1.6em;
+  }
+  #map{
+    float: none;
+    margin: 0 auto;
+    width: 75%;
+  }
+  #twitter{
+    float:none;
+    width: 75%;
+    margin: 0 auto;
+  }
+  #details{
+    float: none;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
